@@ -1,0 +1,8 @@
+flask
+flask_sqlalchemy
+psycopg2-binary
+flask-migrate
+flask-httpauth
+passlib
+python-dotenv
+werkzeug
