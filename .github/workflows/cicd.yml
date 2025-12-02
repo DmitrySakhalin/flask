@@ -49,7 +49,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: dmitrypack0@gmail.com/flask-app:latest
+        tags: paki4/flask-app:latest
 
     - name: Deploy to Heroku
       uses: akhileshns/heroku-deploy@v3.12.14
