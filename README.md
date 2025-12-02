@@ -7,7 +7,7 @@ REST API объявлений на Flask с базовыми CRUD операци
 • Защита через HTTP Basic Auth
 
 ## 🛠 Технологии
-Flask, SQLAlchemy (PostgreSQL), Pytest, Docker, CI/CD с GitHub Actions.
+• Flask, SQLAlchemy (PostgreSQL), Pytest, Docker, CI/CD с GitHub Actions.
  
 
 
