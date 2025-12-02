@@ -9,5 +9,14 @@ REST API объявлений на Flask с базовыми CRUD операци
 ## 🛠 Технологии
 Flask, SQLAlchemy (PostgreSQL), Pytest, Docker, CI/CD с GitHub Actions.
 
+## Запуск
+
+1. Клонировать репозиторий  
+2. Собрать и запустить Docker образ:
+   docker build -t <your_dockerhub_username>/flask-app
+   docker run -p 5000:5000 <your_dockerhub_username>/flask-app
+
+
+
 
 
