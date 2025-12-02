@@ -1,0 +1,34 @@
+### Регистрация
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "1234"
+}
+
+### Создать объявление
+POST http://localhost:5000/ads
+Authorization: Basic dXNlckBleGFtcGxlLmNvbToxMjM0
+Content-Type: application/json
+
+{
+  "title": "Мое первое объявление",
+  "description": "Описание объявления"
+}
+
+### Получить объявление
+GET http://localhost:5000/ads/1
+
+### Обновить объявление
+PUT http://localhost:5000/ads/1
+Authorization: Basic dXNlckBleGFtcGxlLmNvbToxMjM0
+Content-Type: application/json
+
+{
+  "title": "Обновленный заголовок"
+}
+
+### Удалить объявление
+DELETE http://localhost:5000/ads/1
+Authorization: Basic dXNlckBleGFtcGxlLmNvbToxMjM0
