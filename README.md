@@ -9,7 +9,7 @@ REST API объявлений на Flask с базовыми CRUD операци
 ## 🛠 Технологии
 Flask, SQLAlchemy (PostgreSQL), Pytest, Docker, CI/CD с GitHub Actions.
  
-____
+
 
 
 
